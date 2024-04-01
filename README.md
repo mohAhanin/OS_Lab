@@ -20,12 +20,4 @@ Contributions are welcome! Whether you want to suggest improvements, report issu
 
 Explore the repository, try out the assignments, and expand your understanding of operating systems. Don't hesitate to open issues or pull requests if you have feedback or contributions to make. Let's embark on this learning journey together!
 
-📝 **License:**
 
-The contents of this repository are available under the [appropriate license]. Refer to the LICENSE file for more information.
-
-📧 **Connect:**
-
-Have questions or suggestions? Feel free to reach out via email or connect with me on [GitHub]. Your feedback is greatly appreciated!
-
-Start exploring OS_Lab and delve into the fascinating world of operating systems!
