@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 
 namespace Program
 {
@@ -14,29 +15,38 @@ namespace Program
             do
             {
                 Console.WriteLine("What do you want to do? Enter a number:");
-                Console.WriteLine("1. Monday");
-                Console.WriteLine("2. Tuesday");
-                Console.WriteLine("3. Wednesday");
-                Console.WriteLine("4. Thursday");
+                Console.WriteLine("1. Run a specific process");
+                Console.WriteLine("2. List all processes");
+                Console.WriteLine("3. Kill a process");
+                Console.WriteLine("4. Display process tree");
                 Console.WriteLine("0. Exit");
 
-                // Read user input
+                
                 input = Convert.ToInt32(Console.ReadLine());
 
-                // Perform action based on user input
+                
                 switch (input)
                 {
                     case 1:
-                        Console.WriteLine("process 1 is running");
+                        Console.WriteLine("Enter the name of the process you want to run:");
+                        string processName = Console.ReadLine();
+                        Process.Start(processName);
                         break;
                     case 2:
-                        Console.WriteLine("process 2 is running");
+                        Process[] processList = Process.GetProcesses();
+                        foreach (Process p in processList)
+                        {
+                            Console.WriteLine(p.Id + "\t" + p.ProcessName);
+                        }
                         break;
                     case 3:
-                        Console.WriteLine("process 3 is running");
+                        Console.WriteLine("Enter the ID of the process you want to kill:");
+                        int pid = Convert.ToInt32(Console.ReadLine());
+                        Process.GetProcessById(pid).Kill();
                         break;
                     case 4:
-                        Console.WriteLine("process 4 is running");
+                        // Displaying process tree is a bit complex and out of scope for this basic program
+                        Console.WriteLine("This feature is not available.");
                         break;
                     case 0:
                         Console.WriteLine("Exiting program...");
@@ -46,10 +56,10 @@ namespace Program
                         break;
                 }
 
-                // Add a newline for better readability
+                
                 Console.WriteLine();
             }
-            while (input != 0); // Keep looping until the user inputs 0 to exit
+            while (input != 0); 
         }
     }
 }
