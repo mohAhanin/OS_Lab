@@ -15,10 +15,10 @@ namespace Program
             do
             {
                 Console.WriteLine("What do you want to do? Enter a number:");
-                Console.WriteLine("1. Run a specific process");
+                Console.WriteLine("1. Run a specific process\nmspaint مثلا");
                 Console.WriteLine("2. List all processes");
                 Console.WriteLine("3. Kill a process");
-                Console.WriteLine("4. Display process tree");
+                Console.WriteLine("4. Display process handles");
                 Console.WriteLine("0. Exit");
 
                 
@@ -45,8 +45,13 @@ namespace Program
                         Process.GetProcessById(pid).Kill();
                         break;
                     case 4:
-                        // Displaying process tree is a bit complex and out of scope for this basic program
-                        Console.WriteLine("This feature is not available.");
+                        Console.WriteLine("Please enter process name:");
+                        string procName = Console.ReadLine();
+                        Process[] processes = Process.GetProcessesByName(procName);
+                        foreach(Process process in processes)
+                        {
+                            Console.WriteLine($"{process.Handle}");
+                        }
                         break;
                     case 0:
                         Console.WriteLine("Exiting program...");
