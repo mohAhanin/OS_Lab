@@ -20,8 +20,13 @@ namespace CafeManagementSystem2
         {
             InitializeComponent();
             CustomizeButtons();
-        }
+            this.FormClosed += new FormClosedEventHandler(Form1_FormClosed);
 
+        }
+        void Form1_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
         private void CustomizeButtons()
         {
             // Customize Customer Button
