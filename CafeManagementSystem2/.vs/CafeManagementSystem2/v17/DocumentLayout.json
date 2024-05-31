@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\IDEH\\source\\repos\\CafeManagementSystem2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C6C2ABDC-4B96-429C-9907-FAA434686AB5}|CafeManagementSystem2.csproj|c:\\users\\ideh\\source\\repos\\cafemanagementsystem2\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C6C2ABDC-4B96-429C-9907-FAA434686AB5}|CafeManagementSystem2.csproj|solutionrelative:form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6C2ABDC-4B96-429C-9907-FAA434686AB5}|CafeManagementSystem2.csproj|C:\\Users\\IDEH\\source\\repos\\CafeManagementSystem2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6C2ABDC-4B96-429C-9907-FAA434686AB5}|CafeManagementSystem2.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6C2ABDC-4B96-429C-9907-FAA434686AB5}|CafeManagementSystem2.csproj|C:\\Users\\IDEH\\source\\repos\\CafeManagementSystem2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C6C2ABDC-4B96-429C-9907-FAA434686AB5}|CafeManagementSystem2.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form3.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\IDEH\\source\\repos\\CafeManagementSystem2\\Form3.cs",
+              "RelativeDocumentMoniker": "Form3.cs",
+              "ToolTip": "C:\\Users\\IDEH\\source\\repos\\CafeManagementSystem2\\Form3.cs [Design]",
+              "RelativeToolTip": "Form3.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T13:22:38.049Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\IDEH\\source\\repos\\CafeManagementSystem2\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\IDEH\\source\\repos\\CafeManagementSystem2\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T20:41:31.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\IDEH\\source\\repos\\CafeManagementSystem2\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\IDEH\\source\\repos\\CafeManagementSystem2\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AQIAAJgBAAAAAAAAAADwv6IBAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T08:02:33.866Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

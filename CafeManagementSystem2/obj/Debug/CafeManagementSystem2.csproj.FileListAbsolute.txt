@@ -1,0 +1,13 @@
+C:\Users\IDEH\source\repos\CafeManagementSystem2\bin\Debug\CafeManagementSystem2.exe.config
+C:\Users\IDEH\source\repos\CafeManagementSystem2\bin\Debug\CafeManagementSystem2.exe
+C:\Users\IDEH\source\repos\CafeManagementSystem2\bin\Debug\CafeManagementSystem2.pdb
+C:\Users\IDEH\source\repos\CafeManagementSystem2\obj\Debug\CafeManagementSystem2.csproj.AssemblyReference.cache
+C:\Users\IDEH\source\repos\CafeManagementSystem2\obj\Debug\CafeManagementSystem2.Form1.resources
+C:\Users\IDEH\source\repos\CafeManagementSystem2\obj\Debug\CafeManagementSystem2.Properties.Resources.resources
+C:\Users\IDEH\source\repos\CafeManagementSystem2\obj\Debug\CafeManagementSystem2.csproj.GenerateResource.cache
+C:\Users\IDEH\source\repos\CafeManagementSystem2\obj\Debug\CafeManagementSystem2.csproj.CoreCompileInputs.cache
+C:\Users\IDEH\source\repos\CafeManagementSystem2\obj\Debug\CafeManagementSystem2.exe
+C:\Users\IDEH\source\repos\CafeManagementSystem2\obj\Debug\CafeManagementSystem2.pdb
+C:\Users\IDEH\source\repos\CafeManagementSystem2\obj\Debug\CafeManagementSystem2.Form2.resources
+C:\Users\IDEH\source\repos\CafeManagementSystem2\obj\Debug\CafeManagementSystem2.Form3.resources
+C:\Users\IDEH\source\repos\CafeManagementSystem2\obj\Debug\CafeManagementSystem2.Form4.resources
