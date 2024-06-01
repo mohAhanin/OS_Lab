@@ -69,8 +69,11 @@
             this.ordersDataGridView = new System.Windows.Forms.DataGridView();
             this.ShowOrdersBtn = new System.Windows.Forms.Button();
             this.label15 = new System.Windows.Forms.Label();
+            this.MenuBtn = new System.Windows.Forms.Button();
+            this.menuDataGridView = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ordersDataGridView)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.menuDataGridView)).BeginInit();
             this.SuspendLayout();
             // 
             // Customerbtn
@@ -426,11 +429,33 @@
             this.label15.TabIndex = 42;
             this.label15.Text = "Click to Manage Staff";
             // 
+            // MenuBtn
+            // 
+            this.MenuBtn.Location = new System.Drawing.Point(1166, 295);
+            this.MenuBtn.Name = "MenuBtn";
+            this.MenuBtn.Size = new System.Drawing.Size(158, 23);
+            this.MenuBtn.TabIndex = 43;
+            this.MenuBtn.Text = "MenuForm";
+            this.MenuBtn.UseVisualStyleBackColor = true;
+            this.MenuBtn.Click += new System.EventHandler(this.MenuBtn_Click);
+            // 
+            // menuDataGridView
+            // 
+            this.menuDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.menuDataGridView.Location = new System.Drawing.Point(1141, 346);
+            this.menuDataGridView.Name = "menuDataGridView";
+            this.menuDataGridView.RowHeadersWidth = 51;
+            this.menuDataGridView.RowTemplate.Height = 24;
+            this.menuDataGridView.Size = new System.Drawing.Size(305, 150);
+            this.menuDataGridView.TabIndex = 44;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1458, 717);
+            this.Controls.Add(this.menuDataGridView);
+            this.Controls.Add(this.MenuBtn);
             this.Controls.Add(this.label15);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label13);
@@ -475,6 +500,7 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ordersDataGridView)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.menuDataGridView)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -522,6 +548,8 @@
         private System.Windows.Forms.DataGridView ordersDataGridView;
         private System.Windows.Forms.Button ShowOrdersBtn;
         private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Button MenuBtn;
+        private System.Windows.Forms.DataGridView menuDataGridView;
     }
 }
 

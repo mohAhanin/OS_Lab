@@ -15,10 +15,22 @@ namespace CafeManagementSystem2
     {
         private string connectionString = "Data Source=DESKTOP-F324UIT\\SQLEXPRESS;" +
             "Initial Catalog=CAFEDB;Integrated Security=True";
+        
 
         public Form1()
         {
             InitializeComponent();
+
+
+            MenuBtn = new Button();
+            MenuBtn.Text = "Menu Management";
+            MenuBtn.Location = new Point(10, 10); // Set the desired location
+            MenuBtn.Size = new Size(150, 30); // Set the desired size
+            MenuBtn.Click += MenuBtn_Click; // Assign the event handler
+            this.Controls.Add(MenuBtn);
+
+
+
             this.FormClosed += new FormClosedEventHandler(Form1_FormClosed);
 
             // Set the background color of the form
@@ -465,7 +477,34 @@ namespace CafeManagementSystem2
 
         }
 
-        
+        private void MenuBtn_Click(object sender, EventArgs e)
+        {
+            MenuForm menuForm = new MenuForm();
+            menuForm.FormClosed += MenuForm_FormClosed;
+            menuForm.ShowDialog();
+        }
 
+        private void MenuForm_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            // Call the appropriate methods in Form1 to refresh or update the data
+            // For example, if you have a method to refresh the menu data in a DataGridView:
+            RefreshMenuData();
+        }
+        private void RefreshMenuData()
+        {
+            string query = "SELECT * FROM Menu";
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                connection.Open();
+                using (SqlDataAdapter adapter = new SqlDataAdapter(query, connection))
+                {
+                    DataTable dataTable = new DataTable();
+                    adapter.Fill(dataTable);
+                    menuDataGridView.DataSource = null;
+                    menuDataGridView.Rows.Clear();
+                    menuDataGridView.DataSource = dataTable;
+                }
+            }
+        }
     }
 }
