@@ -75,7 +75,7 @@
             // 
             // Customerbtn
             // 
-            this.Customerbtn.Location = new System.Drawing.Point(12, 12);
+            this.Customerbtn.Location = new System.Drawing.Point(17, 12);
             this.Customerbtn.Name = "Customerbtn";
             this.Customerbtn.Size = new System.Drawing.Size(115, 42);
             this.Customerbtn.TabIndex = 0;
@@ -87,7 +87,7 @@
             // 
             this.dataGridView.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.dataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView.Location = new System.Drawing.Point(15, 497);
+            this.dataGridView.Location = new System.Drawing.Point(17, 533);
             this.dataGridView.Name = "dataGridView";
             this.dataGridView.RowHeadersWidth = 51;
             this.dataGridView.RowTemplate.Height = 24;
@@ -107,7 +107,7 @@
             // 
             // InsertCustomerBtn
             // 
-            this.InsertCustomerBtn.Location = new System.Drawing.Point(12, 81);
+            this.InsertCustomerBtn.Location = new System.Drawing.Point(17, 81);
             this.InsertCustomerBtn.Name = "InsertCustomerBtn";
             this.InsertCustomerBtn.Size = new System.Drawing.Size(115, 43);
             this.InsertCustomerBtn.TabIndex = 4;
@@ -117,7 +117,7 @@
             // 
             // CustomerIDTxt
             // 
-            this.CustomerIDTxt.Location = new System.Drawing.Point(112, 139);
+            this.CustomerIDTxt.Location = new System.Drawing.Point(120, 139);
             this.CustomerIDTxt.Name = "CustomerIDTxt";
             this.CustomerIDTxt.Size = new System.Drawing.Size(107, 22);
             this.CustomerIDTxt.TabIndex = 8;
@@ -125,14 +125,14 @@
             // 
             // FirstNameTxt
             // 
-            this.FirstNameTxt.Location = new System.Drawing.Point(112, 167);
+            this.FirstNameTxt.Location = new System.Drawing.Point(120, 167);
             this.FirstNameTxt.Name = "FirstNameTxt";
             this.FirstNameTxt.Size = new System.Drawing.Size(107, 22);
             this.FirstNameTxt.TabIndex = 9;
             // 
             // LastNameTxt
             // 
-            this.LastNameTxt.Location = new System.Drawing.Point(112, 195);
+            this.LastNameTxt.Location = new System.Drawing.Point(120, 195);
             this.LastNameTxt.Name = "LastNameTxt";
             this.LastNameTxt.Size = new System.Drawing.Size(107, 22);
             this.LastNameTxt.TabIndex = 10;
@@ -140,7 +140,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(8, 139);
+            this.label1.Location = new System.Drawing.Point(17, 139);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(83, 16);
             this.label1.TabIndex = 11;
@@ -149,7 +149,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(8, 164);
+            this.label2.Location = new System.Drawing.Point(17, 164);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(75, 16);
             this.label2.TabIndex = 12;
@@ -158,7 +158,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(9, 192);
+            this.label3.Location = new System.Drawing.Point(17, 192);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(75, 16);
             this.label3.TabIndex = 13;
@@ -166,7 +166,7 @@
             // 
             // DeleteCustomerBtn
             // 
-            this.DeleteCustomerBtn.Location = new System.Drawing.Point(12, 230);
+            this.DeleteCustomerBtn.Location = new System.Drawing.Point(17, 241);
             this.DeleteCustomerBtn.Name = "DeleteCustomerBtn";
             this.DeleteCustomerBtn.Size = new System.Drawing.Size(115, 39);
             this.DeleteCustomerBtn.TabIndex = 14;
@@ -176,7 +176,7 @@
             // 
             // DeleteCustomerIDTxt
             // 
-            this.DeleteCustomerIDTxt.Location = new System.Drawing.Point(15, 303);
+            this.DeleteCustomerIDTxt.Location = new System.Drawing.Point(17, 328);
             this.DeleteCustomerIDTxt.Name = "DeleteCustomerIDTxt";
             this.DeleteCustomerIDTxt.Size = new System.Drawing.Size(84, 22);
             this.DeleteCustomerIDTxt.TabIndex = 15;
@@ -185,7 +185,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(12, 284);
+            this.label4.Location = new System.Drawing.Point(17, 295);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(138, 16);
             this.label4.TabIndex = 16;
@@ -209,7 +209,7 @@
             // 
             // UpdateCustomerBtn
             // 
-            this.UpdateCustomerBtn.Location = new System.Drawing.Point(12, 355);
+            this.UpdateCustomerBtn.Location = new System.Drawing.Point(17, 369);
             this.UpdateCustomerBtn.Name = "UpdateCustomerBtn";
             this.UpdateCustomerBtn.Size = new System.Drawing.Size(115, 43);
             this.UpdateCustomerBtn.TabIndex = 35;
@@ -220,7 +220,7 @@
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(17, 466);
+            this.label12.Location = new System.Drawing.Point(17, 480);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(75, 16);
             this.label12.TabIndex = 41;
@@ -230,7 +230,7 @@
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(16, 438);
+            this.label13.Location = new System.Drawing.Point(17, 452);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(75, 16);
             this.label13.TabIndex = 40;
@@ -240,7 +240,7 @@
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(16, 413);
+            this.label14.Location = new System.Drawing.Point(17, 427);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(83, 16);
             this.label14.TabIndex = 39;
@@ -249,7 +249,7 @@
             // 
             // UpdateLastNameTxt
             // 
-            this.UpdateLastNameTxt.Location = new System.Drawing.Point(120, 469);
+            this.UpdateLastNameTxt.Location = new System.Drawing.Point(120, 483);
             this.UpdateLastNameTxt.Name = "UpdateLastNameTxt";
             this.UpdateLastNameTxt.Size = new System.Drawing.Size(107, 22);
             this.UpdateLastNameTxt.TabIndex = 38;
@@ -257,7 +257,7 @@
             // 
             // UpdateFirstNameTxt
             // 
-            this.UpdateFirstNameTxt.Location = new System.Drawing.Point(120, 441);
+            this.UpdateFirstNameTxt.Location = new System.Drawing.Point(120, 455);
             this.UpdateFirstNameTxt.Name = "UpdateFirstNameTxt";
             this.UpdateFirstNameTxt.Size = new System.Drawing.Size(107, 22);
             this.UpdateFirstNameTxt.TabIndex = 37;
@@ -265,7 +265,7 @@
             // 
             // UpdateCustomerIDTxt
             // 
-            this.UpdateCustomerIDTxt.Location = new System.Drawing.Point(120, 413);
+            this.UpdateCustomerIDTxt.Location = new System.Drawing.Point(120, 427);
             this.UpdateCustomerIDTxt.Name = "UpdateCustomerIDTxt";
             this.UpdateCustomerIDTxt.Size = new System.Drawing.Size(107, 22);
             this.UpdateCustomerIDTxt.TabIndex = 36;
@@ -273,49 +273,49 @@
             // 
             // OrderIDTxt
             // 
-            this.OrderIDTxt.Location = new System.Drawing.Point(494, 146);
+            this.OrderIDTxt.Location = new System.Drawing.Point(676, 146);
             this.OrderIDTxt.Name = "OrderIDTxt";
             this.OrderIDTxt.Size = new System.Drawing.Size(134, 22);
             this.OrderIDTxt.TabIndex = 17;
             // 
             // OrdersTxt
             // 
-            this.OrdersTxt.Location = new System.Drawing.Point(494, 314);
+            this.OrdersTxt.Location = new System.Drawing.Point(676, 314);
             this.OrdersTxt.Name = "OrdersTxt";
             this.OrdersTxt.Size = new System.Drawing.Size(134, 22);
             this.OrdersTxt.TabIndex = 18;
             // 
             // TotalPriceTxt
             // 
-            this.TotalPriceTxt.Location = new System.Drawing.Point(494, 286);
+            this.TotalPriceTxt.Location = new System.Drawing.Point(676, 286);
             this.TotalPriceTxt.Name = "TotalPriceTxt";
             this.TotalPriceTxt.Size = new System.Drawing.Size(134, 22);
             this.TotalPriceTxt.TabIndex = 19;
             // 
             // TimeTxt
             // 
-            this.TimeTxt.Location = new System.Drawing.Point(494, 258);
+            this.TimeTxt.Location = new System.Drawing.Point(676, 258);
             this.TimeTxt.Name = "TimeTxt";
             this.TimeTxt.Size = new System.Drawing.Size(134, 22);
             this.TimeTxt.TabIndex = 20;
             // 
             // DateTxt
             // 
-            this.DateTxt.Location = new System.Drawing.Point(494, 230);
+            this.DateTxt.Location = new System.Drawing.Point(676, 230);
             this.DateTxt.Name = "DateTxt";
             this.DateTxt.Size = new System.Drawing.Size(134, 22);
             this.DateTxt.TabIndex = 21;
             // 
             // TableNumberTxt
             // 
-            this.TableNumberTxt.Location = new System.Drawing.Point(494, 202);
+            this.TableNumberTxt.Location = new System.Drawing.Point(676, 202);
             this.TableNumberTxt.Name = "TableNumberTxt";
             this.TableNumberTxt.Size = new System.Drawing.Size(134, 22);
             this.TableNumberTxt.TabIndex = 22;
             // 
             // orderCustomerIDTxt
             // 
-            this.orderCustomerIDTxt.Location = new System.Drawing.Point(494, 174);
+            this.orderCustomerIDTxt.Location = new System.Drawing.Point(676, 174);
             this.orderCustomerIDTxt.Name = "orderCustomerIDTxt";
             this.orderCustomerIDTxt.Size = new System.Drawing.Size(134, 22);
             this.orderCustomerIDTxt.TabIndex = 23;
@@ -323,7 +323,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(391, 146);
+            this.label5.Location = new System.Drawing.Point(573, 146);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(60, 16);
             this.label5.TabIndex = 24;
@@ -333,7 +333,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(391, 174);
+            this.label6.Location = new System.Drawing.Point(573, 174);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(83, 16);
             this.label6.TabIndex = 25;
@@ -342,7 +342,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(391, 202);
+            this.label7.Location = new System.Drawing.Point(573, 202);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(97, 16);
             this.label7.TabIndex = 26;
@@ -352,7 +352,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(391, 230);
+            this.label8.Location = new System.Drawing.Point(573, 230);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(39, 16);
             this.label8.TabIndex = 27;
@@ -361,7 +361,7 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(391, 258);
+            this.label9.Location = new System.Drawing.Point(573, 258);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(41, 16);
             this.label9.TabIndex = 28;
@@ -370,7 +370,7 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(391, 286);
+            this.label10.Location = new System.Drawing.Point(573, 286);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(75, 16);
             this.label10.TabIndex = 29;
@@ -380,7 +380,7 @@
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(391, 317);
+            this.label11.Location = new System.Drawing.Point(573, 317);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(51, 16);
             this.label11.TabIndex = 30;
@@ -389,7 +389,7 @@
             // 
             // InsertOrderBtn
             // 
-            this.InsertOrderBtn.Location = new System.Drawing.Point(391, 82);
+            this.InsertOrderBtn.Location = new System.Drawing.Point(573, 82);
             this.InsertOrderBtn.Name = "InsertOrderBtn";
             this.InsertOrderBtn.Size = new System.Drawing.Size(135, 42);
             this.InsertOrderBtn.TabIndex = 31;
@@ -400,7 +400,7 @@
             // ordersDataGridView
             // 
             this.ordersDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.ordersDataGridView.Location = new System.Drawing.Point(648, 12);
+            this.ordersDataGridView.Location = new System.Drawing.Point(938, 12);
             this.ordersDataGridView.Name = "ordersDataGridView";
             this.ordersDataGridView.RowHeadersWidth = 51;
             this.ordersDataGridView.RowTemplate.Height = 24;
@@ -409,7 +409,7 @@
             // 
             // ShowOrdersBtn
             // 
-            this.ShowOrdersBtn.Location = new System.Drawing.Point(391, 12);
+            this.ShowOrdersBtn.Location = new System.Drawing.Point(573, 12);
             this.ShowOrdersBtn.Name = "ShowOrdersBtn";
             this.ShowOrdersBtn.Size = new System.Drawing.Size(135, 40);
             this.ShowOrdersBtn.TabIndex = 34;
@@ -430,7 +430,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1458, 687);
+            this.ClientSize = new System.Drawing.Size(1458, 717);
             this.Controls.Add(this.label15);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label13);

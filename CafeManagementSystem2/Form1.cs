@@ -19,9 +19,40 @@ namespace CafeManagementSystem2
         public Form1()
         {
             InitializeComponent();
-            CustomizeButtons();
             this.FormClosed += new FormClosedEventHandler(Form1_FormClosed);
 
+            // Set the background color of the form
+            this.BackColor = Color.LightBlue;
+
+            // Set the font, color, and size of all the buttons, labels, and textboxes
+            foreach (Control c in this.Controls)
+            {
+                if (c is Button)
+                {
+                    ((Button)c).Font = new Font("Arial", 12, FontStyle.Bold);
+                    ((Button)c).ForeColor = Color.White;
+                    ((Button)c).BackColor = Color.DarkBlue;
+                    ((Button)c).Size = new Size(200, 40); // Set the size of the button
+                }
+                else if (c is Label)
+                {
+                    ((Label)c).Font = new Font("Arial", 12, FontStyle.Bold);
+                    ((Label)c).ForeColor = Color.DarkBlue;
+                    ((Label)c).AutoSize = false; // This allows you to set the size of the label
+                    ((Label)c).Size = new Size(140, 25); // Set the size of the label
+                }
+                else if (c is TextBox)
+                {
+                    ((TextBox)c).Font = new Font("Arial", 10);
+                    ((TextBox)c).ForeColor = Color.DarkBlue;
+                    ((TextBox)c).Size = new Size(150, 25); // Set the size of the textbox
+                }
+            }
+
+            // Set the font and color of the DataGridView
+            dataGridView.Font = new Font("Arial", 10);
+            dataGridView.ForeColor = Color.DarkBlue;
+            dataGridView.BackgroundColor = Color.White;
         }
         void Form1_FormClosed(object sender, FormClosedEventArgs e)
         {

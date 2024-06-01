@@ -47,13 +47,12 @@
             this.StaffIDUpdateText = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.StaffIDDeleteText = new System.Windows.Forms.TextBox();
-            this.loginButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // Staffbtn
             // 
-            this.Staffbtn.Location = new System.Drawing.Point(350, 12);
+            this.Staffbtn.Location = new System.Drawing.Point(348, 12);
             this.Staffbtn.Name = "Staffbtn";
             this.Staffbtn.Size = new System.Drawing.Size(135, 42);
             this.Staffbtn.TabIndex = 3;
@@ -75,7 +74,7 @@
             // 
             // addStaffbtn
             // 
-            this.addStaffbtn.Location = new System.Drawing.Point(350, 70);
+            this.addStaffbtn.Location = new System.Drawing.Point(348, 70);
             this.addStaffbtn.Name = "addStaffbtn";
             this.addStaffbtn.Size = new System.Drawing.Size(135, 42);
             this.addStaffbtn.TabIndex = 5;
@@ -84,7 +83,7 @@
             // 
             // deleteStaffbtn
             // 
-            this.deleteStaffbtn.Location = new System.Drawing.Point(523, 70);
+            this.deleteStaffbtn.Location = new System.Drawing.Point(522, 70);
             this.deleteStaffbtn.Name = "deleteStaffbtn";
             this.deleteStaffbtn.Size = new System.Drawing.Size(135, 42);
             this.deleteStaffbtn.TabIndex = 6;
@@ -94,7 +93,7 @@
             // 
             // UpdateStaffBtn
             // 
-            this.UpdateStaffBtn.Location = new System.Drawing.Point(178, 70);
+            this.UpdateStaffBtn.Location = new System.Drawing.Point(176, 70);
             this.UpdateStaffBtn.Name = "UpdateStaffBtn";
             this.UpdateStaffBtn.Size = new System.Drawing.Size(135, 42);
             this.UpdateStaffBtn.TabIndex = 7;
@@ -104,21 +103,21 @@
             // 
             // StaffIDtext
             // 
-            this.StaffIDtext.Location = new System.Drawing.Point(350, 159);
+            this.StaffIDtext.Location = new System.Drawing.Point(348, 159);
             this.StaffIDtext.Name = "StaffIDtext";
             this.StaffIDtext.Size = new System.Drawing.Size(135, 22);
             this.StaffIDtext.TabIndex = 8;
             // 
             // StaffFirstNametext
             // 
-            this.StaffFirstNametext.Location = new System.Drawing.Point(350, 239);
+            this.StaffFirstNametext.Location = new System.Drawing.Point(348, 239);
             this.StaffFirstNametext.Name = "StaffFirstNametext";
             this.StaffFirstNametext.Size = new System.Drawing.Size(135, 22);
             this.StaffFirstNametext.TabIndex = 9;
             // 
             // StaffLastNametext
             // 
-            this.StaffLastNametext.Location = new System.Drawing.Point(350, 340);
+            this.StaffLastNametext.Location = new System.Drawing.Point(348, 340);
             this.StaffLastNametext.Name = "StaffLastNametext";
             this.StaffLastNametext.Size = new System.Drawing.Size(135, 22);
             this.StaffLastNametext.TabIndex = 10;
@@ -127,7 +126,7 @@
             // StaffIDlabel
             // 
             this.StaffIDlabel.AutoSize = true;
-            this.StaffIDlabel.Location = new System.Drawing.Point(388, 129);
+            this.StaffIDlabel.Location = new System.Drawing.Point(392, 129);
             this.StaffIDlabel.Name = "StaffIDlabel";
             this.StaffIDlabel.Size = new System.Drawing.Size(46, 16);
             this.StaffIDlabel.TabIndex = 11;
@@ -175,7 +174,7 @@
             // StaffIDUpdateLabel
             // 
             this.StaffIDUpdateLabel.AutoSize = true;
-            this.StaffIDUpdateLabel.Location = new System.Drawing.Point(216, 129);
+            this.StaffIDUpdateLabel.Location = new System.Drawing.Point(220, 129);
             this.StaffIDUpdateLabel.Name = "StaffIDUpdateLabel";
             this.StaffIDUpdateLabel.Size = new System.Drawing.Size(46, 16);
             this.StaffIDUpdateLabel.TabIndex = 17;
@@ -183,21 +182,21 @@
             // 
             // StaffLastNameUpdateText
             // 
-            this.StaffLastNameUpdateText.Location = new System.Drawing.Point(178, 340);
+            this.StaffLastNameUpdateText.Location = new System.Drawing.Point(176, 340);
             this.StaffLastNameUpdateText.Name = "StaffLastNameUpdateText";
             this.StaffLastNameUpdateText.Size = new System.Drawing.Size(135, 22);
             this.StaffLastNameUpdateText.TabIndex = 16;
             // 
             // StaffFirstNameUpdateText
             // 
-            this.StaffFirstNameUpdateText.Location = new System.Drawing.Point(178, 239);
+            this.StaffFirstNameUpdateText.Location = new System.Drawing.Point(176, 239);
             this.StaffFirstNameUpdateText.Name = "StaffFirstNameUpdateText";
             this.StaffFirstNameUpdateText.Size = new System.Drawing.Size(135, 22);
             this.StaffFirstNameUpdateText.TabIndex = 15;
             // 
             // StaffIDUpdateText
             // 
-            this.StaffIDUpdateText.Location = new System.Drawing.Point(178, 159);
+            this.StaffIDUpdateText.Location = new System.Drawing.Point(176, 159);
             this.StaffIDUpdateText.Name = "StaffIDUpdateText";
             this.StaffIDUpdateText.Size = new System.Drawing.Size(135, 22);
             this.StaffIDUpdateText.TabIndex = 14;
@@ -213,24 +212,16 @@
             // 
             // StaffIDDeleteText
             // 
-            this.StaffIDDeleteText.Location = new System.Drawing.Point(523, 159);
+            this.StaffIDDeleteText.Location = new System.Drawing.Point(522, 159);
             this.StaffIDDeleteText.Name = "StaffIDDeleteText";
             this.StaffIDDeleteText.Size = new System.Drawing.Size(135, 22);
             this.StaffIDDeleteText.TabIndex = 20;
-            // 
-            // loginButton
-            // 
-            this.loginButton.Location = new System.Drawing.Point(0, 0);
-            this.loginButton.Name = "loginButton";
-            this.loginButton.Size = new System.Drawing.Size(75, 23);
-            this.loginButton.TabIndex = 0;
             // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1074, 581);
-            this.Controls.Add(this.loginButton);
+            this.ClientSize = new System.Drawing.Size(823, 581);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.StaffIDDeleteText);
             this.Controls.Add(this.StaffLastNameUpdateLabel);
@@ -279,6 +270,5 @@
         private System.Windows.Forms.TextBox StaffIDUpdateText;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox StaffIDDeleteText;
-        private System.Windows.Forms.Button loginButton;
     }
 }

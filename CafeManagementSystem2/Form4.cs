@@ -9,6 +9,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
+
+
 namespace CafeManagementSystem2
 {
     public partial class Form4 : Form
@@ -16,7 +19,37 @@ namespace CafeManagementSystem2
         public Form4()
         {
             InitializeComponent();
+
+            // Set the background color of the form
+            this.BackColor = Color.LightBlue;
+
+            // Set the font, color, and size of all the buttons, labels, and textboxes
+            foreach (Control c in this.Controls)
+            {
+                if (c is Button)
+                {
+                    ((Button)c).Font = new Font("Arial", 12, FontStyle.Bold);
+                    ((Button)c).ForeColor = Color.White;
+                    ((Button)c).BackColor = Color.DarkBlue;
+                    ((Button)c).Size = new Size(200, 50); // Set the size of the button
+                }
+                else if (c is Label)
+                {
+                    ((Label)c).Font = new Font("Arial", 12, FontStyle.Bold);
+                    ((Label)c).ForeColor = Color.DarkBlue;
+                    ((Label)c).AutoSize = false; // This allows you to set the size of the label
+                    ((Label)c).Size = new Size(200, 30); // Set the size of the label
+                }
+                else if (c is TextBox)
+                {
+                    ((TextBox)c).Font = new Font("Arial", 10);
+                    ((TextBox)c).ForeColor = Color.DarkBlue;
+                    ((TextBox)c).Size = new Size(200, 30); // Set the size of the textbox
+                }
+            }
         }
+
+
         private string connectionString = "Data Source=DESKTOP-F324UIT\\SQLEXPRESS;" +
             "Initial Catalog=CAFEDB;" +
             "Integrated Security=True";
@@ -60,6 +93,11 @@ namespace CafeManagementSystem2
                 // Login failed
                 MessageBox.Show("Invalid username or password.");
             }
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
         }
     }
 
